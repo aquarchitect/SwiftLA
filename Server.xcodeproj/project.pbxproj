@@ -146,7 +146,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = "/Users/hainguyen/Documents/X-code/SwiftLA/Backend/Package.swift"; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/CHttpParser-0.1.1/Sources/CHttpParser/http_parser.c" /* http_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/CHttpParser-0.1.1/Sources/CHttpParser/utils.c" /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Common-1.2.1/Sources/Encodable.swift" /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
@@ -322,7 +321,6 @@
 		"___RootGroup_" = {
 			isa = PBXGroup;
 			children = (
-				__PBXFileRef_Package.swift /* Package.swift */,
 				"_____Sources_" /* Sources */,
 				Dependencies_ /* Dependencies */,
 				"_______Tests_" /* Tests */,
