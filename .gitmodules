@@ -1,0 +1,6 @@
+[submodule "Exercism"]
+	path = Exercism
+	url = ./Exercism/.git
+[submodule "TodoList"]
+	path = TodoList
+	url = ./TodoList/.git
