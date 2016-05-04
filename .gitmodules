@@ -1,0 +1,4 @@
+[submodule "Common"]
+	path = Common
+	url = git@github.com:aquarchitect/SwiftLA.git
+	branch = todolist-common
