@@ -2,3 +2,7 @@
 	path = Common
 	url = git@github.com:aquarchitect/SwiftLA.git
 	branch = todolist-common
+[submodule "Backend"]
+	path = Backend
+	url = git@github.com:aquarchitect/SwiftLA.git
+	branch = todolist-backend
