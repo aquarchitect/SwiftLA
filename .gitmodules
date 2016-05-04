@@ -1,0 +1,4 @@
+[submodule "Exercism"]
+	path = Exercism
+	url = git@github.com:aquarchitect/SwiftLA.git
+	branch = exercism
