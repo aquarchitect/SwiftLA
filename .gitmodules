@@ -6,7 +6,7 @@
 	path = Backend
 	url = git@github.com:aquarchitect/SwiftLA.git
 	branch = todolist-backend
-[submodule "Frontend"]
+[submodule "Client"]
 	path = Client
 	url = git@github.com:aquarchitect/SwiftLA.git
-	branch = todolist-frontend
+	branch = todolist-client
