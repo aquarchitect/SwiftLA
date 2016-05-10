@@ -1,12 +1,8 @@
-[submodule "Common"]
-	path = Common
-	url = git@github.com:aquarchitect/SwiftLA.git
-	branch = todolist-common
 [submodule "Server"]
-	path = Server
+	path = web
 	url = git@github.com:aquarchitect/SwiftLA.git
-	branch = todolist-server
+	branch = todolist-web
 [submodule "Client"]
-	path = Client
+	path = mobile
 	url = git@github.com:aquarchitect/SwiftLA.git
-	branch = todolist-client
+	branch = todolist-mobile
