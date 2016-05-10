@@ -12,20 +12,36 @@
 		C239D0FD1CD92E3200041011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239D0F91CD92E3200041011 /* ViewController.swift */; };
 		C239D1001CD92E3F00041011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C239D0FE1CD92E3F00041011 /* LaunchScreen.storyboard */; };
 		C239D17A1CD9440700041011 /* NetworkResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239D1791CD9440700041011 /* NetworkResource.swift */; };
-		C26AAA801CD9939C00457934 /* libCommon.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C26AAA7E1CD9939C00457934 /* libCommon.dylib */; };
-		C26AAA811CD9939C00457934 /* libSwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C26AAA7F1CD9939C00457934 /* libSwiftyJSON.dylib */; };
+		C24A18061CE19E5300AA2B51 /* Data.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C24A18031CE19D2400AA2B51 /* Data.dylib */; };
+		C24A18071CE19E5300AA2B51 /* SwiftyJSON.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C24A18011CE19D2400AA2B51 /* SwiftyJSON.dylib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C24A18001CE19D2400AA2B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24A17FB1CE19D2400AA2B51 /* Data.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		C24A18021CE19D2400AA2B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24A17FB1CE19D2400AA2B51 /* Data.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "_____Product_Data";
+			remoteInfo = Data;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		C239D0D11CD9299400041011 /* Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C239D0D11CD9299400041011 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C239D0F61CD92E3200041011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		C239D0F71CD92E3200041011 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Sources/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		C239D0F81CD92E3200041011 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		C239D0F91CD92E3200041011 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Sources/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		C239D0FF1CD92E3F00041011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Sources/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		C239D1791CD9440700041011 /* NetworkResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkResource.swift; path = Sources/NetworkResource.swift; sourceTree = SOURCE_ROOT; };
-		C26AAA7E1CD9939C00457934 /* libCommon.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCommon.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/TodoList-akrfzitifgnkigenqujxvevcjxng/Build/Products/Debug-iphonesimulator/libCommon.dylib"; sourceTree = "<group>"; };
-		C26AAA7F1CD9939C00457934 /* libSwiftyJSON.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSwiftyJSON.dylib; path = "../../../../Library/Developer/Xcode/DerivedData/TodoList-akrfzitifgnkigenqujxvevcjxng/Build/Products/Debug-iphonesimulator/libSwiftyJSON.dylib"; sourceTree = "<group>"; };
+		C24A17FB1CE19D2400AA2B51 /* Data.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Data.xcodeproj; path = ../Web/Data/Data.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,8 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26AAA801CD9939C00457934 /* libCommon.dylib in Frameworks */,
-				C26AAA811CD9939C00457934 /* libSwiftyJSON.dylib in Frameworks */,
+				C24A18061CE19E5300AA2B51 /* Data.dylib in Frameworks */,
+				C24A18071CE19E5300AA2B51 /* SwiftyJSON.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +60,8 @@
 		C239D0C81CD9299400041011 = {
 			isa = PBXGroup;
 			children = (
+				C24A17FB1CE19D2400AA2B51 /* Data.xcodeproj */,
 				C239D0D31CD9299500041011 /* Sources */,
-				C239D1761CD93F6400041011 /* Dependencies */,
 				C239D0D21CD9299400041011 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +69,7 @@
 		C239D0D21CD9299400041011 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C239D0D11CD9299400041011 /* Client.app */,
+				C239D0D11CD9299400041011 /* Mobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,21 +96,21 @@
 			name = Support;
 			sourceTree = "<group>";
 		};
-		C239D1761CD93F6400041011 /* Dependencies */ = {
+		C24A17FC1CE19D2400AA2B51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C26AAA7E1CD9939C00457934 /* libCommon.dylib */,
-				C26AAA7F1CD9939C00457934 /* libSwiftyJSON.dylib */,
+				C24A18011CE19D2400AA2B51 /* SwiftyJSON.dylib */,
+				C24A18031CE19D2400AA2B51 /* Data.dylib */,
 			);
-			name = Dependencies;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C239D0D01CD9299400041011 /* Client */ = {
+		C239D0D01CD9299400041011 /* Mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C239D0E31CD9299600041011 /* Build configuration list for PBXNativeTarget "Client" */;
+			buildConfigurationList = C239D0E31CD9299600041011 /* Build configuration list for PBXNativeTarget "Mobile" */;
 			buildPhases = (
 				C239D0CD1CD9299400041011 /* Sources */,
 				C239D0CE1CD9299400041011 /* Frameworks */,
@@ -104,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = Client;
+			name = Mobile;
 			productName = TodoList;
-			productReference = C239D0D11CD9299400041011 /* Client.app */;
+			productReference = C239D0D11CD9299400041011 /* Mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C239D0CC1CD9299400041011 /* Build configuration list for PBXProject "Client" */;
+			buildConfigurationList = C239D0CC1CD9299400041011 /* Build configuration list for PBXProject "Mobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,12 +152,35 @@
 			mainGroup = C239D0C81CD9299400041011;
 			productRefGroup = C239D0D21CD9299400041011 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C24A17FC1CE19D2400AA2B51 /* Products */;
+					ProjectRef = C24A17FB1CE19D2400AA2B51 /* Data.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				C239D0D01CD9299400041011 /* Client */,
+				C239D0D01CD9299400041011 /* Mobile */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C24A18011CE19D2400AA2B51 /* SwiftyJSON.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = SwiftyJSON.dylib;
+			remoteRef = C24A18001CE19D2400AA2B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C24A18031CE19D2400AA2B51 /* Data.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = Data.dylib;
+			remoteRef = C24A18021CE19D2400AA2B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C239D0CF1CD9299400041011 /* Resources */ = {
@@ -275,7 +314,7 @@
 				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = HaiNguyen.TodoList;
-				PRODUCT_NAME = Client;
+				PRODUCT_NAME = Mobile;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -293,7 +332,7 @@
 				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = HaiNguyen.TodoList;
-				PRODUCT_NAME = Client;
+				PRODUCT_NAME = Mobile;
 				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Release;
@@ -301,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C239D0CC1CD9299400041011 /* Build configuration list for PBXProject "Client" */ = {
+		C239D0CC1CD9299400041011 /* Build configuration list for PBXProject "Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C239D0E11CD9299600041011 /* Debug */,
@@ -310,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C239D0E31CD9299600041011 /* Build configuration list for PBXNativeTarget "Client" */ = {
+		C239D0E31CD9299600041011 /* Build configuration list for PBXNativeTarget "Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C239D0E41CD9299600041011 /* Debug */,

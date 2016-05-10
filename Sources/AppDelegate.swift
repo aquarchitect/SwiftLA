@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Common
+import Data
 
 @UIApplicationMain
 final class AppDelegate: UIResponder {
