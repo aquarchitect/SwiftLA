@@ -1,6 +1,6 @@
-import PackageDescription
+import PackageDescription 
 
-let common: Package.Dependency = .Package(url: "../Common", majorVersion: 1)
-let kitura: Package.Dependency = .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 0, minor: 11)
+let kitura: Package.Dependency = .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 0, minor: 13)
+let service = Target(name: "Service", dependencies: ["Data"]) 
 
-let package = Package(name: "Server", dependencies: [common, kitura])
+let package = Package(name: "Server", targets: [service], dependencies: [kitura], exclude: ["Data/Package.swift", "Data/Packages"])

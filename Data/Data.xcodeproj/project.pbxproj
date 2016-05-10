@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 46;
+    rootObject = __RootObject_;
+    objects = {
+        __RootObject_ = {
+            isa = PBXProject;
+            attributes = {LastUpgradeCheck = 9999;};
+            buildConfigurationList = ___RootConfs_;
+            compatibilityVersion = 'Xcode 3.2';
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (en);
+            mainGroup = ___RootGroup_;
+            productRefGroup = ____Products_;
+            projectDirPath = '';
+            projectRoot = '';
+            targets = (______Target_SwiftyJSON, ______Target_Data);
+        };
+        '__PBXFileRef_Package.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'Package.swift';
+            path = 'Package.swift';
+            sourceTree = '<group>';
+        };
+        ___RootGroup_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Package.swift', _____Configs_, _____Sources_, Dependencies_, _______Tests_, ____Products_);
+            sourceTree = '<group>';
+        };
+        _______Group_SwiftyJSON = {
+            isa = PBXGroup;
+            name = SwiftyJSON;
+            path = 'Packages/SwiftyJSON-7.0.2/Source';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/LclJSONSerialization.swift', '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/NSExtension.swift', '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/SwiftyJSON.swift');
+        };
+        '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/LclJSONSerialization.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'LclJSONSerialization.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/NSExtension.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'NSExtension.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/SwiftyJSON.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'SwiftyJSON.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_SwiftyJSON = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_SwiftyJSON;
+            buildPhases = (CompilePhase_SwiftyJSON, ___LinkPhase_SwiftyJSON);
+            buildRules = ();
+            dependencies = ();
+            name = SwiftyJSON;
+            productName = SwiftyJSON;
+            productReference = _____Product_SwiftyJSON;
+            productType = 'com.apple.product-type.library.dynamic';
+        };
+        _____Product_SwiftyJSON = {
+            isa = PBXFileReference;
+            explicitFileType = 'compiled.mach-o.dylib';
+            path = 'SwiftyJSON.dylib';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_SwiftyJSON = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/SwiftyJSON-7.0.2/Source/LclJSONSerialization.swift', '__src_cc_ref_Packages/SwiftyJSON-7.0.2/Source/NSExtension.swift', '__src_cc_ref_Packages/SwiftyJSON-7.0.2/Source/SwiftyJSON.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        ___LinkPhase_SwiftyJSON = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/SwiftyJSON-7.0.2/Source/LclJSONSerialization.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/LclJSONSerialization.swift';
+        };
+        '__src_cc_ref_Packages/SwiftyJSON-7.0.2/Source/NSExtension.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/NSExtension.swift';
+        };
+        '__src_cc_ref_Packages/SwiftyJSON-7.0.2/Source/SwiftyJSON.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/SwiftyJSON-7.0.2/Source/SwiftyJSON.swift';
+        };
+        _LinkFileRef_SwiftyJSON = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_SwiftyJSON;
+        };
+        _______Confs_SwiftyJSON = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_SwiftyJSON, _ReleaseConf_SwiftyJSON);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_SwiftyJSON = {
+            isa = XCBuildConfiguration;
+            buildSettings = { ENABLE_TESTABILITY = YES; SWIFT_OPTIMIZATION_LEVEL = -Onone; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; };
+            name = Debug;
+        };
+        _ReleaseConf_SwiftyJSON = {
+            isa = XCBuildConfiguration;
+            buildSettings = { ENABLE_TESTABILITY = YES; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; };
+            name = Release;
+        };
+        __Dependency_SwiftyJSON = {
+            isa = PBXTargetDependency;
+            target = ______Target_SwiftyJSON;
+        };
+        _______Group_Data = {
+            isa = PBXGroup;
+            name = Data;
+            path = '';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Encodable.swift', '__PBXFileRef_List.swift', '__PBXFileRef_Todo.swift');
+        };
+        '__PBXFileRef_Encodable.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'Encodable.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_List.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'List.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Todo.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            name = 'Todo.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_Data = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_Data;
+            buildPhases = (CompilePhase_Data, ___LinkPhase_Data);
+            buildRules = ();
+            dependencies = (__Dependency_SwiftyJSON);
+            name = Data;
+            productName = Data;
+            productReference = _____Product_Data;
+            productType = 'com.apple.product-type.library.dynamic';
+        };
+        _____Product_Data = {
+            isa = PBXFileReference;
+            explicitFileType = 'compiled.mach-o.dylib';
+            path = 'Data.dylib';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_Data = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Encodable.swift', '__src_cc_ref_List.swift', '__src_cc_ref_Todo.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        ___LinkPhase_Data = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_SwiftyJSON);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Encodable.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Encodable.swift';
+        };
+        '__src_cc_ref_List.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_List.swift';
+        };
+        '__src_cc_ref_Todo.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Todo.swift';
+        };
+        _LinkFileRef_Data = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Data;
+        };
+        _______Confs_Data = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_Data, _ReleaseConf_Data);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_Data = {
+            isa = XCBuildConfiguration;
+            buildSettings = { ENABLE_TESTABILITY = YES; SWIFT_OPTIMIZATION_LEVEL = -Onone; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; };
+            name = Debug;
+        };
+        _ReleaseConf_Data = {
+            isa = XCBuildConfiguration;
+            buildSettings = { ENABLE_TESTABILITY = YES; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; };
+            name = Release;
+        };
+        __Dependency_Data = {
+            isa = PBXTargetDependency;
+            target = ______Target_Data;
+        };
+        '__PBXFileRef_Data.xcodeproj/Configs/Project.xcconfig' = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.xcconfig;
+            name = 'Project.xcconfig';
+            path = 'Data.xcodeproj/Configs/Project.xcconfig';
+            sourceTree = '<group>';
+        };
+        _____Configs_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Data.xcodeproj/Configs/Project.xcconfig');
+            name = Configs;
+            sourceTree = '<group>';
+        };
+        _____Sources_ = {
+            isa = PBXGroup;
+            children = (_______Group_SwiftyJSON, _______Group_Data);
+            name = Sources;
+            sourceTree = '<group>';
+        };
+        Dependencies_ = {
+            isa = PBXGroup;
+            children = (_______Group_SwiftyJSON);
+            name = Dependencies;
+            sourceTree = '<group>';
+        };
+        ____Products_ = {
+            isa = PBXGroup;
+            children = (_____Product_SwiftyJSON, _____Product_Data);
+            name = Products;
+            sourceTree = '<group>';
+        };
+        _______Debug_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_Data.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Debug;
+        };
+        _____Release_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_Data.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Release;
+        };
+        ___RootConfs_ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (_______Debug_, _____Release_);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+    };
+}
