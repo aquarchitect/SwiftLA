@@ -1,8 +1,8 @@
-[submodule "Web"]
-	path = Web
-	url = git@github.com:aquarchitect/SwiftLA.git
-	branch = todolist-web
 [submodule "Mobile"]
 	path = Mobile
 	url = git@github.com:aquarchitect/SwiftLA.git
 	branch = todolist-mobile
+[submodule "Web"]
+	path = Web
+	url = git@github.com:aquarchitect/SwiftLA.git
+	branch = todolist-web
