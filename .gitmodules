@@ -2,3 +2,7 @@
 	path = Exercism
 	url = git@github.com:aquarchitect/SwiftLA.git
 	branch = exercism
+[submodule "TodoList"]
+	path = TodoList
+	url = git@github.com:aquarchitect/SwiftLA.git
+	branch = todolist-project
