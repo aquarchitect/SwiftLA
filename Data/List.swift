@@ -1,3 +1,10 @@
+//
+//  List.swift
+//  Common
+//
+//  Created by Hai Nguyen on 5/3/16.
+//
+//
 
 import SwiftyJSON
 
