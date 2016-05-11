@@ -19,7 +19,7 @@ router.get("/list/:index") { request, response, _ in
 
         _ = try? response.send(json: JSON(todos)).end()
     } else {
-        response.status(.BadRequest)
+        response.status(.badRequest)
     }
 
 }

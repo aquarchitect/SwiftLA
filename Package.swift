@@ -1,6 +1,6 @@
 import PackageDescription 
 
 let kitura: Package.Dependency = .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 0, minor: 13)
-let service = Target(name: "Service", dependencies: ["Data"]) 
+let backend = Target(name: "Backend", dependencies: ["Data"]) 
 
-let package = Package(name: "Server", targets: [service], dependencies: [kitura], exclude: ["Data/Package.swift", "Data/Packages"])
+let package = Package(name: "Web", targets: [backend], dependencies: [kitura], exclude: ["Data/Package.swift", "Data/Packages"])
